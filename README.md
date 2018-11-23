@@ -10,11 +10,16 @@ This is a interview test of Sensetime. It will:
     we provide two method to achieve it: run python script or run shell script
 
 Usage
+
 1.Install the docker(more detail show in Note)
+
 2.Open the terminal
+
 3.Build the image
+
     run:
        docker build -t docker_python .
+       
 4.Run the image
     run :
     docker run -v [your target directory path]:/usr/goal  docker_python
@@ -34,7 +39,7 @@ Note
                 
                 wget -qO- https://get.docker.com/ | sh
         3.4 Start the docker service
-               run:
+               run: 
                 sudo service docker start
     4. When you build a image successfully, you can use " docker images;" to show more details about this image.
     
