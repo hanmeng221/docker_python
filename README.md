@@ -38,6 +38,8 @@ Note
                 sudo service docker start
     4. When you build a image successfully, you can use " docker images;" to show more details about this image.
     
+    5. If you want to run docker when you are not the root, you can use " sudo usermod -aG docker runoob" and then re-entry.
+    
 Exit Code:
 
     0: Success
