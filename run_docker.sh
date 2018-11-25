@@ -19,6 +19,7 @@ do
 			filepath=$2
 		else
 			echo "the filepath is not available"	
+			wrong_flag=1
 		fi
 		shift
 		;;
