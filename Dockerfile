@@ -8,5 +8,3 @@ COPY ./execution_exe.py  /usr/src
 
 WORKDIR /usr/src
 
-ENTRYPOINT ["python", "execution_exe.py","/usr/goal"]
-
