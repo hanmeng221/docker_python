@@ -16,7 +16,7 @@ do
 		;;
 	-f)
 		if [ -d $2 ]; then
-			filepath=$2
+			filepath=$(realpath $2)
 		else
 			echo "the filepath is not available"	
 			wrong_flag=1
